@@ -85,9 +85,9 @@ if __name__ == "__main__":
             break
         elif query.lower() == "eval":
             print("\n📊 Evaluasi TF-IDF:")
-            print(evaluate_from_file("tfidf_history.txt"))
+            print(evaluate_from_file("database/tfidf_history.txt"))
             print("\n📊 Evaluasi BM25:")
-            print(evaluate_from_file("bm25_history.txt"))
+            print(evaluate_from_file("database/bm25_history.txt"))
         else:
             ground_truth = input("Masukkan judul lagu yang benar: ").strip()
 

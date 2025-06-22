@@ -1,0 +1,2 @@
+{"query": "aku padamu", "ground_truth": "dewi", "results": [{"judul": "Dewi", "skor": 1.0}]}
+{"query": "dewi", "ground_truth": "dewi", "results": [{"judul": "Dewi", "skor": 1.0}]}
